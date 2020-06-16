@@ -1,0 +1,190 @@
+@charset "UTF-8";
+body {
+	background-color: #272727;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-style: normal;
+	font-weight: 400;
+	height: 100%;
+	margin: 0;
+}
+h1 {
+	font-family: Times Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.5em;
+	text-align: center;
+	line-height: 1em;
+	height: 1em;
+	color: #FF0004;
+	text-shadow: 4px 5px 17px ;
+}
+h2 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5em;
+	text-align: center;
+}
+footer {
+	font-size: small;
+	text-align: center;
+	clear: both;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 80px;
+	width: 100%;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+	padding-top: 58px;
+}
+
+ 
+
+
+.asideLeft {
+	width: 28%;
+	float: left;
+	margin-right: 1%;
+	margin-left: 5%;
+	margin-top: 30px;
+}
+.asideLeft1 {
+	width: 28%;
+	float: left;
+	margin-right: 1%;
+	margin-left: 5%;
+	margin-top: 240px;
+}
+.asidemiddle {
+	width: 28%;
+	float: middle;
+	margin-right: 1%;
+	margin-left: 5%;
+	margin-top: 0px;
+}
+.sectionRight {
+	width: 55%;
+	float: right;
+	margin-right: 5%;
+	margin-top: 30px;
+	margin-left: 1%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,0,0,1.00) 10.39%,rgba(255,255,255,0.25) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,0,0,1.00) 10.39%,rgba(255,255,255,0.25) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,0,0,1.00) 10.39%,rgba(255,255,255,0.25) 100%);
+	background-image: linear-gradient(180deg,rgba(255,0,0,1.00) 10.39%,rgba(255,255,255,0.25) 50%);
+	border-top-right-radius: 1px;
+	margin-bottom: 80px;
+	color: rgba(255,255,255,1.00);
+}
+.sectionMiddle {
+	width: 55%;
+	float: middle;
+	margin-right: 5%;
+	margin-top: 30px;
+	margin-left: 23%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,0,0,1.00) 10.39%,rgba(255,255,255,0.25) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,0,0,1.00) 10.39%,rgba(255,255,255,0.25) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,0,0,1.00) 10.39%,rgba(255,255,255,0.25) 100%);
+	background-image: linear-gradient(180deg,rgba(255,0,0,1.00) 10.39%,rgba(255,255,255,0.25) 50%);
+	border-top-right-radius: 1px;
+	margin-bottom: 30px;
+	color: rgba(255,255,255,1.00);
+}
+header {
+	text-align: center;
+	margin-top: 70px;
+}
+nav {
+	background-color: #FF0004;
+}
+.navlist {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	overflow: hidden;
+}
+.navlistitem {
+	/*float: left;*/
+}
+.navlistitem a {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-decoration: none;
+	display: block;
+	padding-top: 14px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 16px;
+	color: #FF0004;
+}
+.navlistitem a:hover {
+	color: #FF0004;
+	background-color: #358B6C;
+}
+.container-fluid .navbar-header .navbar-brand {
+	font-family: "Times New Roman";
+	font-style: normal;
+	font-weight: 400;
+	color: #FF0004;
+}
+.formStyle {
+	width: 100%;
+}
+
+@media (max-width: 650px){
+.asideLeft {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 30px;
+}
+.sectionRight {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-top: 30px;
+	margin-left: 5%;
+	margin-bottom: 100px;
+}
+body {
+	background-color:darkslategray;
+	background-image: url();
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+	height: 100%;
+	margin: 0;
+}
+h1 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2em;
+	text-align: center;
+	line-height: 1em;
+	height: 1em;
+	margin-bottom: 42px;
+}
+header {
+	margin-top: 30px;
+}
+p {
+	font-size: large;
+}
+}
